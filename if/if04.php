@@ -1,5 +1,6 @@
 <?php
-$nilai = 85;
+echo "masukkan nilai : ";
+$nilai = fgets(STDIN);
 
 if($nilai<60){
     echo "Nilai : $nilai\n";
